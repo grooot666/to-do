@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 377px;
+  height: 290px;
+  background-color: #fff;
+  margin-top: 60px;
+  padding: 25px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.list_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.to-do_head {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.to-do_head h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+}
+.add_input {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+.tabs {
+  display: flex;
+  justify-content: start;
+  gap: 6px;
+}
+.add_input input {
+  width: 280px;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid #e4e4e7;
+  border-radius: 6px;
+}
+.add_input button {
+  background-color: #3c82f6;
+  border-radius: 6px;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+.tabs button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  border: none;
+  border-radius: 6px;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.list_end-text {
+  color: #6b7280;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.todos_end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: normal;
+}
+.end_text1 {
+  color: #6b7280;
+}
+.end_text2 {
+  color: #3c82f6;
+}
